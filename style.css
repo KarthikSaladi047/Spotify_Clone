@@ -101,12 +101,12 @@ nav ul li {
 
 .bottom {
   position: sticky;
-  bottom: 0;
-  left: 0;
   background-color: black;
   height: 80px;
   text-align: center;
   color: white;
+  align-self: center;
+  bottom: 0;
 }
 
 #progressbar {
