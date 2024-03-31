@@ -102,10 +102,19 @@ nav ul li {
 .bottom {
   position: sticky;
   bottom: 0;
+  left: 0; /* Ensure it spans the whole width */
+  width: 100%; /* Make it occupy the whole width */
   background-color: black;
   height: 80px;
   text-align: center;
   color: white;
+}
+
+.icons {
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+  align-items: center; /* Center the icons vertically */
+  height: 100%; /* Ensure icons take the full height of the .bottom div */
 }
 
 #progressbar {
