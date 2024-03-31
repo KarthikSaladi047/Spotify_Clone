@@ -103,11 +103,16 @@ nav ul li {
   position: sticky;
   bottom: 0;
   left: 0;
-  width: 100%;
   background-color: black;
   height: 80px;
   text-align: center;
   color: white;
+}
+
+#progressbar {
+  width: 80vw;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .icons {
@@ -121,21 +126,5 @@ nav ul li {
 
 .icons i {
   padding: 0 10px;
-  cursor: pointer;
-}
-
-#progressbar {
-  width: 80vw;
-  padding: 10px;
-  cursor: pointer;
-}
-.icons {
-  display: flex;
-  align-items: center;
-  padding-left: 45vw;
-}
-.icons i {
-  padding: 0 10px;
-  display: flex;
   cursor: pointer;
 }
