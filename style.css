@@ -100,13 +100,13 @@ nav ul li {
 }
 
 .bottom {
+  position: sticky;
   background-color: black;
   height: 80px;
   text-align: center;
   color: white;
   align-self: center;
   position: absolute;
-  margin-bottom: 0;
 }
 
 #progressbar {
@@ -114,7 +114,6 @@ nav ul li {
   padding: 10px;
   cursor: pointer;
 }
-
 .icons {
   display: flex;
   align-items: center;
