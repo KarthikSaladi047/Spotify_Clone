@@ -106,7 +106,7 @@ nav ul li {
   color: white;
   align-self: center;
   position: absolute;
-  bottom: 0;
+  margin-bottom: 0;
 }
 
 #progressbar {
@@ -117,14 +117,11 @@ nav ul li {
 
 .icons {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
-  height: 100%; 
-  width: 100%; 
-  padding: 0 20%; 
+  align-items: center;
+  padding-left: 45vw;
 }
-
 .icons i {
   padding: 0 10px;
+  display: flex;
   cursor: pointer;
 }
