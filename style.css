@@ -100,12 +100,12 @@ nav ul li {
 }
 
 .bottom {
-  position: sticky;
   background-color: black;
   height: 80px;
   text-align: center;
   color: white;
   align-self: center;
+  position: absolute;
   bottom: 0;
 }
 
