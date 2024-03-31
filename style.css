@@ -106,6 +106,8 @@ nav ul li {
   text-align: center;
   color: white;
   align-self: center;
+  position: absolute;
+  bottom: 0;
 }
 #progressbar {
   width: 80vw;
